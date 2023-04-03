@@ -4,7 +4,9 @@ Set up a new Next.js project using the command: 'npx create-next-app'.
 
 Install the following dependencies:
 
+
 npm install react react-dom next
+
 npm install axios
 
 
@@ -25,7 +27,6 @@ export default function Home() {
     }
     fetchTasks();
   }, []);
-
   return (
     <div>
       <h1>Hiring Task Application</h1>
