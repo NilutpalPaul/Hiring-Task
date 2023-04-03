@@ -5,6 +5,7 @@
 2. Install the following dependencies:
 
 npm install react react-dom next
+
 npm install axios
 
 
