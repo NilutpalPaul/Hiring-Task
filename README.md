@@ -1,18 +1,16 @@
 # Hiring Task
 
-Set up a new Next.js project using the command: 'npx create-next-app'.
+Set up a new Next.js project using the command: npx create-next-app.
 
 Install the following dependencies:
 
-
 npm install react react-dom next
-
 npm install axios
 
 
-Create a new directory called 'pages' in the root directory.
+Create a new directory called pages in the root directory.
 
-Create a new file called 'index.js' inside the 'pages' directory:
+Create a new file called index.js inside the pages directory:
 
 import { useState, useEffect } from 'react';
 import axios from 'axios';
@@ -27,6 +25,7 @@ export default function Home() {
     }
     fetchTasks();
   }, []);
+
   return (
     <div>
       <h1>Hiring Task Application</h1>
@@ -45,9 +44,9 @@ export default function Home() {
 }
 
 
-Create a new directory called 'api' in the root directory.
+Create a new directory called api in the root directory.
 
-Create a new file called 'tasks.js' inside the 'api' directory:
+Create a new file called tasks.js inside the api directory:
 
 const tasks = [  {    id: 1,    title: 'Task 1',    description: 'This is task 1',    dueDate: '2023-05-01',  },  {    id: 2,    title: 'Task 2',    description: 'This is task 2',    dueDate: '2023-05-02',  },  {    id: 3,    title: 'Task 3',    description: 'This is task 3',    dueDate: '2023-05-03',  },];
 
@@ -56,7 +55,7 @@ export default function handler(req, res) {
 }
 
 
-Update the 'package.json' file with the following scripts:
+Update the package.json file with the following scripts:
 
 "scripts": {
   "dev": "next dev",
@@ -65,6 +64,6 @@ Update the 'package.json' file with the following scripts:
 }
 
 
-Run the application using the command: 'npm run dev'.
+Run the application using the command: npm run dev.
 
-Open a web browser and go to 'http://localhost:3000' to see the Hiring Task Application in action.
+Open a web browser and go to http://localhost:3000 to see the Hiring Task Application in action.
