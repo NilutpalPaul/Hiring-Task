@@ -57,8 +57,6 @@ export default function handler(req, res) {
 
 7. Update the 'package.json' file with the following scripts:
 
-json
-Copy code
 "scripts": {
   "dev": "next dev",
   "build": "next build",
