@@ -1,0 +1,29 @@
+.container {
+  background-color: rgb(234, 59, 88);
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.content {
+  text-align: center;
+}
+
+.image {
+  max-width: 40%;
+}
+
+.text {
+  position: absolute;
+  padding: 15px 82px;
+  justify-items: right;
+  font-size: 50px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.p {
+  text-align: right;
+  color: white;
+}
