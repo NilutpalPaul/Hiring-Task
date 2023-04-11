@@ -1,32 +1,17 @@
 # Hiring Task
 
-1. Set up a new Next.js project using the command: 'npx create-next-app'.
+1. Set up a new Next.js project using the command: 'npx create-next-app hiring-task'.
 
-2. Install the following dependencies:
+2. Create a new directory called 'pages' in the root directory.
 
-
-npm install react react-dom next
-
-npm install axios
-
-
-3. Create a new directory called 'pages' in the root directory.
-
-4. Create a new file called 'index.js' inside the 'pages' directory:
+3. Create a new file called 'index.js' inside the 'pages' directory:
 
 The Code is given in the index.js file.
 
 
-5. Create a new directory called 'api' in the root directory.
+4. Create a new css file called 'Home.module.css' inside the 'styles' directory:
 
-6. Create a new file called 'tasks.js' inside the 'api' directory:
-
-The code is given in task.js file.
-
-
-7. Update the 'package.json' file with the following scripts:
-
-The code is given in package.json file.
+The code is given in Home.module.css file.
 
 
 8. Run the application using the command: npm run dev.
